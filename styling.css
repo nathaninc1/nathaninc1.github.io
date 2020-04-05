@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body{
+	color: #282828;
+}
+
+.Header-container{
+	width: 100%;
+	background-color: #b30086;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+header::after{
+	content: **;
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float: left;
+}
+
+.Company-name{
+	float: left;
+	margin: 0;
+	padding-top: 2%;
+	color: #b30086;
+}
+
+.nav{
+	margin: 0 auto;
+}
+
+.nav-ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.nav-li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 5%;
+}
+
+.nav-a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+
+.nav-a:hover{
+	box-shadow: 0px 0px 10px #ff33cc, 0px 0px 40px #ff33cc, 0px 0px 80px #ff33cc;
+	background-color: #ff33cc;
+	color: white;
+}
+
+.main-section{
+	width: 100%;
+	overflow: auto;
+}
+
+.main-section-header{
+	text-align: center;
+}
+
+.first-image{
+	width: 50%;
+	float: left;
+}
+
+.Good-life-caption{
+	text-align: center;
+	padding-top: 15%;
+	color: #ff33cc;
+}
+
+.About-us{
+	background-color: #cc0099;
+	color: white;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.Section-header{
+	padding: 2%;
+	text-align: center;
+}
+
+.Services{
+	text-align: center;
+	margin: 2% 2%;
+}
+
+.Services-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: .5em;
+}
+
+.Services-card{
+	transition: all .2s ease-in-out;
+	padding: 0% 2%;
+}
+
+.Services-card:hover{
+	transform: scale(1.1);
+}
+
+.Service-image{
+	width: 200px;
+	height: 200px;
+}
+
+.Location{
+	background-color: #cc0099;
+	overflow: auto;
+}
+
+.Toronto-image{
+	float: left;
+	width: 30%;
+	height: auto;
+}
+
+.Location-caption-container{
+	width: 65%
+	padding-left: 5%;
+	height: 10%;
+}
+
+#Location-id{
+	color: white;
+}
+
+.Location-caption{
+	color: white;
+	text-align: center;
+	padding: 12% 2%;
+}
+
+
+
+
