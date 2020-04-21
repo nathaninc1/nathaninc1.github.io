@@ -4,16 +4,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Georgia, Trajan, "Times New Roman", serif;
 }
 
 .Sale{
 	width: 100%;
 	height: 5%;
-	border-bottom: 1px solid white;
 	background-color: #DC143C;
 	color: white;
 	text-align: center;
-	border-color: white;
+	border-bottom: 1px solid white;
 }
 
 .body{
@@ -23,7 +23,6 @@
 .Header-container{
 	position: relative;
 	width: 100%;
-	background-color: #cc0099;
 	text-align: center;
 	padding-bottom: 1%;
 	overflow: auto;
@@ -42,9 +41,6 @@ header::after{
 	width: 8.5%;
 }
 
-.nav{
-	margin: 0 auto;
-}
 
 .nav-ul{
 	margin: 0;
@@ -55,14 +51,15 @@ header::after{
 
 .nav-li{
 	display: inline-block;
-	margin-left: 10%;
+	margin-right: 6%;
 	padding-top: 4%;
 }
 
 .nav-a{
 	text-decoration: none;
 	text-transform: uppercase;
-	color: white;
+	color: #404040;
+	font-weight: bold;
   -webkit-transition: font-size .5s ease-in-out;
   -moz-transition: font-size .5s ease-in-out;
   -o-transition: font-size .5s ease-in-out;
@@ -71,7 +68,8 @@ header::after{
 
 .nav-a:hover{
    font-weight: bolder;
-   color: #e6e600;
+   color:#cc0099;
+   cursor: pointer;
 }
 
 .Canada{
@@ -84,6 +82,7 @@ header::after{
 .main-section{
 	width: 100%;
 	overflow: auto;
+	margin-top: 1%;
 }
 
 .main-section-header{
@@ -107,6 +106,25 @@ header::after{
 	color: white;
 	text-align: center;
 	padding-bottom: 1%;
+}
+
+.second-pic{
+	width: 100%;
+	overflow: auto;
+	position: relative;
+}
+
+.walking-caption{
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	margin: 0;
+	background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #FFD0AE 50%); 
+}
+
+.couple{
+	width: 40%;
+	float: right;
 }
 
 .Section-header{
@@ -178,6 +196,7 @@ header::after{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Georgia, Trajan, "Times New Roman", serif;
 }
 
 .Sale{
@@ -237,8 +256,7 @@ header::after{
 
 .first-image{
 	width: 80%;
-	margin-right: 10%;
-	margin-left: 10%;
+	margin: 10% 10%;
 }
 
 .Good-life-caption{
@@ -252,6 +270,11 @@ header::after{
 	color: white;
 	text-align: center;
 	padding-bottom: 1%;
+}
+
+.couple{
+	width: 80%;
+	margin: 10% 10%;
 }
 
 .Section-header{
