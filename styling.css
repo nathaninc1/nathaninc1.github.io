@@ -83,11 +83,7 @@ header::after{
 	width: 100%;
 	overflow: auto;
 	margin-top: 1%;
-}
-
-.main-section-header{
-	text-align: center;
-	padding: 2%;
+	position: relative;
 }
 
 .first-image{
@@ -95,10 +91,77 @@ header::after{
 	float: left;
 }
 
-.Good-life-caption{
-	text-align: center;
-	padding-top: 15%;
+.main-section-header{
+	position: absolute;
+	top: 10%;
+	left: 52%;
 	color: #404040;
+}
+
+.button {
+  position: absolute;
+  right: 5%;
+  top: 85%;
+  font-size: 1em;
+  padding: 10px;
+  color: #404040;
+  border: 2px solid #404040;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #cc0099;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 80%;
+  overflow: auto;
 }
 
 .About-us{
@@ -114,17 +177,15 @@ header::after{
 	position: relative;
 }
 
-.walking-caption{
-	position: absolute;
-	left: 5%;
-	top: 50%;
-	margin: 0;
-	background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #FFD0AE 50%); 
-}
-
 .couple{
 	width: 40%;
 	float: right;
+}
+
+.walking-caption{
+	margin-top: 8%;
+	margin-left: 2%;
+	background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #FFD0AE 50%); 
 }
 
 .Section-header{
