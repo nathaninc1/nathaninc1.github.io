@@ -206,7 +206,7 @@ header::after{
 
 .Services-card{
 	transition: all .2s ease-in-out;
-	padding: 0% 2%;
+	padding: 6% 2%;
 }
 
 .Services-card:hover{
