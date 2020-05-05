@@ -98,6 +98,14 @@ header::after{
 	color: #404040;
 }
 
+.main-section-desc{
+	position: absolute;
+	left: 55%;
+	top: 35%;
+	padding-right: 2%;
+	color: #404040;
+}
+
 .button {
   position: absolute;
   right: 5%;
@@ -249,7 +257,9 @@ header::after{
 .footer{
 	width: 100%;
 	height: 10%;
+	padding: 4%;
 	text-align: center;
+	background-color:	 #e6e6e6;
 }
 }
 
