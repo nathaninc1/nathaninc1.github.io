@@ -289,10 +289,14 @@ header::after{
 
 .Header-container{
 	width: 100%;
-	background-color: #cc0099;
 	text-align: center;
 	padding-bottom: 1%;
 }
+
+.logo{
+	width: 30%;
+}
+
 
 .nav{
 	margin: 0 auto;
@@ -313,7 +317,8 @@ header::after{
 .nav-a{
 	text-decoration: none;
 	text-transform: uppercase;
-	color: white;
+	color: #404040;
+	font-weight: bold;
 }
 
 .main-section{
@@ -326,15 +331,23 @@ header::after{
 	padding: 2%;
 }
 
+.main-section-desc{
+	padding: 2%;
+	text-align: center;
+	color: #cc0099;
+}
+
 .first-image{
 	width: 80%;
 	margin: 10% 10%;
 }
 
-.Good-life-caption{
-	text-align: center;
-	padding-top: 4%;
-	color: #404040;
+.button{
+	display: none;
+}
+
+.popup{
+	display: none;
 }
 
 .About-us{
@@ -349,6 +362,13 @@ header::after{
 	margin: 10% 10%;
 }
 
+.walking-caption{
+	margin-top: 8%;
+	margin-left: 2%;
+	background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #FFD0AE 50%); 
+}
+
+
 .Section-header{
 	padding: 2%;
 	text-align: center;
@@ -360,12 +380,14 @@ header::after{
 }
 
 .Services-card{
-	padding: 0% 2%;
+	padding: 2% 2%;
 }
 
 .Service-image{
 	width: 200px;
 	height: 200px;
+	border-radius: 50%;
+	border: 10px solid pink;
 }
 
 .Location{
@@ -376,14 +398,10 @@ header::after{
 .Toronto-image{
 	width: 80%;
 	height: auto;
+	padding: 8%;
 	margin-right: 10%;
 	margin-left: 10%;}
 
-.Location-caption-container{
-	width: 65%
-	padding-left: 5%;
-	height: 10%;
-}
 
 #Location-id{
 	color: white;
@@ -392,8 +410,17 @@ header::after{
 .Location-caption{
 	color: white;
 	text-align: center;
-	padding: 12% 2%;
+	padding: 2% 2%;
 }
+
+.footer{
+	width: 100%;
+	height: 5%;
+	padding: 2%;
+	text-align: center;
+	background-color:#e6e6e6;
+}
+
 }
 
 
