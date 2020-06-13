@@ -227,8 +227,16 @@ header::after{
 	border: 10px solid pink;
 }
 
-.Location{
+.Our-Team{
 	background-color: #cc0099;
+	color: white;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+
+.Location{
+	background-color: #FFC0CB;
 	overflow: auto;
 }
 
@@ -388,6 +396,13 @@ header::after{
 	height: 200px;
 	border-radius: 50%;
 	border: 10px solid pink;
+}
+
+.Our-Team{
+	background-color: #cc0099;
+	color: white;
+	text-align: center;
+	padding-bottom: 1%;
 }
 
 .Location{
